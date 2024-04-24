@@ -1,0 +1,127 @@
+/* font.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+    h1{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        padding: 6px 24px 16px 24px;
+    }
+
+}
+.banner-wrap {
+    background-image: url(./assets/Banner-image.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+.ad {
+    background-image: radial-gradient(54.97% 272.54% at 27.36% - 134.72%, rgba(112, 145, 234, 0,98)0, rgba(0, 0, 0, 0.98)100%);
+    color: #000;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 10px;
+}
+
+.ad-text {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    margin: 0px 10px;
+}
+
+.ad-text-detail {
+    font-size: 15px;
+    letter-spacing: 0,5px;
+    margin: 0px 10px;
+}
+.ad-text-link{
+    font-size: 15px;
+    letter-spacing: 0.5pa;
+    margin: 0px 15px;
+}
+.ad-text-link>a {
+    color: #000;
+}
+/* Styling-nav */
+nav {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center ;
+    height: 56px;
+    padding: 0 32px;
+}
+.nav-item {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.nav-item:hover {
+    background-color: #d8d9da;
+    border-top-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+}
+
+/* styling-logo */
+.logo {
+    height: 24px;
+    width: 120px;
+}
+
+/* Styling-main */
+main{
+     text-align: center;
+     height: calc(100vh - 56px);
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+}
+
+.title-section {
+    margin-top: 10px;
+}
+
+.action-area{
+    margin-bottom: 100px;
+}
+
+/*  Styling-btn */
+button {
+    border: none;
+    background: none;
+    background-color: yellow;
+    width: 210px;
+    height: 40px;
+    padding: 7px 27px;
+    border-top-right-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn-dark {
+    background-color: #191d21;
+    color: white;
+}
+.btn-light{
+    background-color: #e4e4e2;
+    color: #191d21;
+}
+
+.footer-text {
+    margin-top: 50PX;
+}
